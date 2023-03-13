@@ -35,6 +35,7 @@ namespace Mission9
             });
 
             services.AddScoped<iBookRepository, EFBookRepository>();
+            services.AddScoped<iPurchaseRepository, EFPurchaseRepository>();
 
             services.AddRazorPages();
 
